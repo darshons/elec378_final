@@ -31,6 +31,6 @@ def download_kaggle_competition_data(competition_name, folder="data"):
 # Test
 if __name__ == "__main__":
     COMPETITION = "elec-378-sp-26-final-project"
-    DATA_DIR = "Data"
+    DATA_DIR = "data"
     
     download_kaggle_competition_data(COMPETITION, DATA_DIR)
